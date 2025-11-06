@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Color Picker — Scheme Generator</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main class="app-shell">
+    <header id="colorHead">
+      <div class="left-controls">
+        <div id="preview" class="color-preview" title="Selected color"></div>
+        <input type="color" id="colorPicker" value="#FF5A5A" aria-label="Choose base color" />
+        <button id="pasteBtn" title="Paste hex from clipboard">Paste</button>
+      </div>
+
+      <div class="center-controls">
+        <select id="myDropdown" name="scheme">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <button id="applyColorBtn">Get color scheme</button>
+      </div>
+    </header>
+
+    <section id="colorDisplayArea" class="palette-card">
+      <div id="status" class="status-text">Choose a color and scheme, then click "Get color scheme".</div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
