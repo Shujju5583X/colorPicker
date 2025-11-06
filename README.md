@@ -148,7 +148,7 @@ If you’d like to add new features (e.g., export palettes, save favorites), fol
 ## 👨‍🎨 Author
 
 **Syed Shujatullah**
-📧 *Email:* [[YourEmail@example.com](syedshujatullah29@gmail.com)]
-🌐 *GitHub:* [https://github.com/your-username](https://github.com/Shujju5583X)
+📧 *Email:* [[syedshujatullah29@gmail.com](syedshujatullah29@gmail.com)]
+🌐 *GitHub:* [https://github.com/Shujju5583X](https://github.com/Shujju5583X)
 
 ---
