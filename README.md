@@ -24,14 +24,6 @@ You can copy any color’s HEX code or even paste a color directly from your cli
 
 ---
 
-## 🖼️ Preview
-
-![Color Scheme Generator Screenshot](https://www.thecolorapi.com/docs/images/color-scheme-example.png)
-
-*(Replace with your actual screenshot if hosting locally.)*
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer                | Technology Used                                                     |
